@@ -90,7 +90,7 @@ body {
   color: #2a8ca2;
 }
 
-.titulo {
+.titulo-sobre {
   font-size: 30px;
   font-weight: 700;
 }
@@ -110,5 +110,52 @@ body {
 }
 
 .button-seta img {
+  width: 100%;
+}
+
+.bloco-acqua {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  height: 389px;
+}
+
+.acqua {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.text-acqua {
+  margin-left: 30px;
+}
+
+.titulo {
+  color: #38aa9c;
+}
+
+.titulo-destaque {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.text-descrição {
+  margin-top: 10px;
+  width: 70%;
+}
+
+.text-button {
+  display: flex;
+}
+
+.button-seta-acqua {
+  background-color: #2a8ca2;
+  border: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+
+.button-seta-acqua img {
   width: 100%;
 }
