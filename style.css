@@ -159,3 +159,60 @@ body {
 .button-seta-acqua img {
   width: 100%;
 }
+
+.seção-mapa {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  height: 704px;
+  background: transparent
+    linear-gradient(180deg, #237d9e 0%, #35a6a9 45%, #237d9e 100%) 0% 0%
+    no-repeat padding-box;
+}
+
+.mapa {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.mapa img {
+  width: 100%;
+}
+
+.mapa-descrição {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  color: #ffffff;
+  margin-left: 40px;
+  margin-top: 70px;
+  margin-right: 70px;
+}
+
+.titulo-texto-mapa {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.info-mapa {
+  display: flex;
+  margin-top: 50px;
+}
+
+.info-numero {
+  background-color: #ffffff;
+  color: #2a8ca2;
+  height: 50px;
+  width: 60px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.info-texto {
+  margin-left: 20px;
+}
