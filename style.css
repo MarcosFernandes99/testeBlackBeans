@@ -28,7 +28,7 @@ body {
   align-items: center;
   margin-top: 25px;
   justify-content: space-between;
-  width: 80vw;
+  width: 80%;
 }
 
 .menu {
@@ -46,10 +46,69 @@ body {
   color: #38aa9c;
 }
 
-.button {
+.button-pesquisar {
   border-radius: 100%;
   border-color: #38aa9c;
   border-style: solid;
   height: 35px;
   width: 35px;
+}
+
+.foto-inicio {
+  width: 80%;
+  margin-top: 10px;
+}
+
+.foto-inicio img {
+  max-width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.sobre {
+  display: flex;
+  width: 80%;
+  height: 389px;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.foto-sobre {
+  width: 50%;
+}
+
+.foto-sobre img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.texto-sobre {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 100px;
+  color: #2a8ca2;
+}
+
+.titulo {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.descrição {
+  color: #868686;
+  margin-top: 30px;
+}
+
+.button-seta {
+  background-color: #2a8ca2;
+  border: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  margin-top: 25px;
+}
+
+.button-seta img {
+  width: 100%;
 }
