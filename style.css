@@ -21,6 +21,15 @@ body {
 .opções {
   margin-left: 10px;
   margin-right: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: #57fce8;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.opções-hover {
+  color: #ffffff;
 }
 
 .menu-container {
@@ -44,6 +53,12 @@ body {
   padding: 10px;
   border-radius: 20px;
   color: #38aa9c;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.menu-opções-hover {
+  transform: scale(1.1);
 }
 
 .button-pesquisar {
